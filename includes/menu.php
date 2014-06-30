@@ -12,8 +12,8 @@
 						<a class="mainMenuButton newsBtn" href="/#news">News</a>
 					</li>
 					<!-- <li class="menuButton">
-						<a href="/#updates" class="mainMenuButton aboutBtn">Updates</a>
-					</li> -->
+						<a href="/#updates" class="mainMenuButton aboutBtn">Updates</a>blabla
+					</li>Blabla -->
 					<li class="menuButton">
 						<a class="mainMenuButton contactBtn" href="/contact">Contact</a>
 					</li>
