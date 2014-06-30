@@ -20,7 +20,7 @@
 				</ul>
 				<div class="menuLogin">
 					<a onclick="loginWindow()" class="linkLogin">Log in</a>
-					<div class="formStyle" id="light">Log in here.</div>
+					<div class="formStyle" id="light">Mee bezig.</div>
 					<div class="black_overlay" id="fade"></div>
 					<a class="menuLoginSignup" href="/signup">Sign up</a>
 				</div>
