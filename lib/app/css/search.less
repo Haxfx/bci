@@ -1,0 +1,143 @@
+@import 'variables.less';
+
+body{
+
+	.searchPageWrapper{
+			color: #ffffff;
+			font-family: @fontFamily;
+			font-size: 1em ;
+			margin: 4em  0 4em 0;
+
+			.inner{
+				margin: 0 auto;
+				width: @baseWidth;
+				border-radius: 5px 5px 0 0;
+				background-image: -moz-linear-gradient(rgba(28, 52, 49, 0.5) 0%, rgba(26, 77, 68, 0.5) 95%);
+				padding-bottom: 2em;
+
+
+				.searchPageHeader{
+					margin: 0;
+					padding: 4px 0 0 1em;
+					width: @baseWidth;
+					height: 2em;
+					font-family: @fontFamily;
+					font-size: 1em ;
+					border-radius: 5px 5px 0 0;
+					background-color: #000000;
+					color: #ffffff;
+					background-image: -moz-linear-gradient(rgba(28, 52, 49, 0.5) 0%, rgba(26, 77, 68, 0.5) 95%);
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+
+				}
+				.searchPageFilter{
+					margin: 0 auto;
+					text-align: center;
+
+					.formText{
+						font-family: @fontFamily;
+						font-size: 1em ;
+						margin-top: 1em;
+					}
+
+					.formSelect{
+						display: inline-block;
+					    position: relative;
+					    margin: 1em 0 0 0;
+							
+						.formOption{
+							margin: 0;
+							padding: 0;
+							list-style: none;
+							display: inline-block;
+
+							.formOptionOne{
+								float: left;
+							}
+
+							.formOptionTwo{
+								float: left;
+
+							}
+
+							.formOptionThree{
+								float: left;
+
+							}
+						}
+					}
+
+					.formDuoDiv{
+					    margin: 0 auto;
+					    position: relative;	
+
+					    .contentHeaderText{
+					    	text-align: left;
+					    	padding-left: 1em;
+					    }
+
+						.formDuo{
+							margin: 1em 2em 2em 1em;
+
+							.serverSelect{
+								float: left;
+							}
+
+							.roleSelect{
+								float: left;
+
+							}
+
+							.divisionSelect{
+								float: left;
+							}
+						}
+					}
+				}
+				.innerResults{
+					margin:0;
+					height: 30em;
+					width: 60em;
+
+					.searchResults{
+						margin: 0 0 0 1em;
+						width: 30em;
+						height: 30em;
+						float: left;
+						background-color: @baseColor;
+						overflow-y: auto;
+						overflow-x: hidden;
+
+						.styleResults{
+							margin: 0;
+							width: 30em;
+							height: 5em;
+							background-color: #0A1916;
+							border-bottom: 1px solid @baseColor;				
+						}	
+					}
+					.resultsProfile{
+						margin: 0 2em 0 0;
+						width: 25em;
+						height: 30em;
+						background-color: @baseColor;
+						float: right;
+					}
+			}
+
+
+				.contentTextOne{
+					margin: 0;
+
+				}
+
+				.contentTextTwo{
+					margin: 0;
+				}
+			}
+
+			
+		}
+
+}

@@ -1,0 +1,27 @@
+# Protect .htaccess file
+<files ~ "^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+</files>
+
+# Support PHP 5.4
+<FilesMatch "\.php$">
+    AddHandler x-httpd-php53 .php
+</FilesMatch>
+
+# Prevent 404 errors for non-existing redirected folders
+Options -MultiViews
+
+# Rewrites
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+
+    # Base Pages
+    RewriteRule ^home/?$ index.php [L]
+    RewriteRule ^signup/?$ register.php [L]
+    RewriteRule ^contact/?$ contact.php [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+</IfModule>
